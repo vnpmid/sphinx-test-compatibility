@@ -1,0 +1,10 @@
+[package]
+name = "sphinx-test-compatibility"
+version = "0.1.0"
+authors = ["vnpmid <dhani.prg.2007@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+sphinx = { package = "sphinx", git = "https://github.com/vnpmid/sphinx", rev="b9f641dffcc17521ebcbc870e46266f202995c7c" }
+sphinx-existing = { package = "sphinx", git = "https://github.com/nymtech/sphinx", rev="c494250f2a78bed33a618d470792418eee932859" }
+
